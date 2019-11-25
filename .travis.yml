@@ -1,0 +1,11 @@
+language: python
+
+python:
+ - 3.6
+ - 3.5
+ - 3.7
+
+script:
+ - python3 CEBD1100homework8ThibaultPasturel.py -H
+ - python3 CEBD1100homework8ThibaultPasturel.py -c1 ash -c2 alcohol
+ - python3 CEBD1100homework8ThibaultPasturel.py -c1 magnesim -c2 flavanoids
